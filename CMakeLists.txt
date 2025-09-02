@@ -9,4 +9,4 @@ add_executable(basics main.cpp
         lec2/swapExercise.cpp
         lec3/advancedPtr.cpp
         lec4/arraysPtr.cpp
-        lec4/temp.cpp)
+        lec4/Thousandnodes.cpp)
