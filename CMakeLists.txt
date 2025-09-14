@@ -11,4 +11,5 @@ add_executable(basics main.cpp
         lec4/arraysPtr.cpp
         lec4/Thousandnodes.cpp
         lec5/memoryPool.cpp
-        lec6/templates.cpp)
+        lec6/templates.cpp
+        lec6/templateSpecializations.cpp)
