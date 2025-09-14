@@ -12,4 +12,7 @@ add_executable(basics main.cpp
         lec4/Thousandnodes.cpp
         lec5/memoryPool.cpp
         lec6/templates.cpp
-        lec6/templateSpecializations.cpp)
+        lec6/templateSpecializations.cpp
+        lec6/factorialMetaProgramming.cpp
+        lec6/fibonacciMetaProgramming.cpp
+        lec6/gcdMetaprogramming.cpp)
