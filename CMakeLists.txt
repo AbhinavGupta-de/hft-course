@@ -16,4 +16,5 @@ add_executable(basics main.cpp
         lec6/factorialMetaProgramming.cpp
         lec6/fibonacciMetaProgramming.cpp
         lec6/gcdMetaprogramming.cpp
-        lec6/inheritance.cpp)
+        lec6/inheritance.cpp
+        lec7/inheritanceThroughTemplates.cpp)
