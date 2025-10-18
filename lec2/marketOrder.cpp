@@ -24,6 +24,11 @@ Response match(MarketOrder *buyer, MarketOrder *seller) {
         int quantityFilled = min(buyer->quantity, seller->quantity);
         buyer->quantity -= quantityFilled;
         seller->quantity -= quantityFilled;
+        // seller->quantity = seller->quantity - quantityFilled;
+//          seller->quantity -= quantityFilled;
+//        quanitity--
+//        != quantity - 1
+//
         return {quantityFilled};
     }
     return {0};

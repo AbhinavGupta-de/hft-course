@@ -2,7 +2,6 @@
 // Created by atlas on 9/14/25.
 //
 #include <iostream>
-#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -13,8 +12,7 @@ struct GCD
 };
 
 template <int A>
-struct GCD<A, 0>
-{
+struct GCD<A, 0> {
     static constexpr int value = A;
 };
 

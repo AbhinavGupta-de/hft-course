@@ -2,7 +2,6 @@
 // Created by atlas on 9/14/25.
 //
 #include <iostream>
-#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -12,17 +11,16 @@ struct Fibonacci
     static constexpr long long value = Fibonacci<N - 1>::value + Fibonacci<N - 2>::value;
 };
 
-
-template <>
-struct Fibonacci<0>
-{
-    static constexpr long long value = 0;
-};
-
-template <>
+template<>
 struct Fibonacci<1>
 {
     static constexpr long long value = 1;
+};
+
+template<>
+struct Fibonacci<0>
+{
+    static constexpr long long value = 0;
 };
 
 int main()

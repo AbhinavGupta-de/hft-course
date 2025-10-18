@@ -2,17 +2,16 @@
 // Created by atlas on 9/14/25.
 //
 #include <iostream>
-#include <bits/stdc++.h>
 
 using namespace std;
 
 template <int N>
 struct Factorial
 {
-    static constexpr int value = Factorial<N - 1>::value * N;
+    static constexpr int value = N * Factorial<N - 1>::value;
 };
 
-template <>
+template<>
 struct Factorial<0>
 {
     static constexpr int value = 1;
